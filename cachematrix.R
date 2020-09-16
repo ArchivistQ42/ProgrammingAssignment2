@@ -1,12 +1,13 @@
 ## title:   "R Programming (Coursera): Programming Assignment 2"
 ## author:  "ArchivistQ42"
-## date:    "9/16/2020"
+## date:    "16 Sept 2020"
 
-## Put comments here that give an overall description of what your
-## functions do
+## Collectively, these functions create and operate on special lists objects
+## which can store a matrix and a cached copy of its inverse (after the first
+## time has been calculated by cacheSolve
 
 ## parameters: 
-  ## mat : an invertable square matrix (Warning: function does NOT check this, use with caution)
+  ## mat : an invertable square matrix
 ## return: a list of functions 
   ## set(x)     : sets the matrix to x
   ## get()      : returns the matrix
