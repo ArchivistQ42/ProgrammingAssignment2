@@ -32,6 +32,7 @@ makeCacheMatrix <- function(mat = matrix())
 
 ## parameters:
   ## spMat : specially formatted list returned from makeCacheMatrix(mat)
+  ## ...   : any other parameters to be used in the solve function
 ## return: matrix inverse of matrix passed to makeCacheMatrix or set
 cacheSolve <- function(spMat, ...) 
 {
